@@ -33,6 +33,6 @@ public class MinSendService extends Service {
                 .setContentIntent(pIntent).build();
         notifikasjon.flags |= Notification.FLAG_AUTO_CANCEL;
         notificationManager.notify(88, notifikasjon);
-        return super.onStartCommand(intent, flags, startId);*/
+        return super.onStartCommand(intent, flags, startId);
     }
 }

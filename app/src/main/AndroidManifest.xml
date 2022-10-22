@@ -17,6 +17,7 @@
         <service android:name=".MinPeriodisk"></service>
         <activity android:name=".LeggTilKontakt"
             android:exported="false"></activity>
+        <activity android:name=".Resultat"></activity>
         <activity android:name=".LeggTilAvtaler"
             android:exported="false"></activity>
         <activity

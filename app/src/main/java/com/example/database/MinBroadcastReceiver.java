@@ -5,7 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-public class MinBroadcastReceiver extends BroadcastReceiver {
+public class
+MinBroadcastReceiver extends BroadcastReceiver {
     public MinBroadcastReceiver(){}
 
     @Override
