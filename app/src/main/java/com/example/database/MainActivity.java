@@ -16,17 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       /* k.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                if (v.getId() == R.id.button) {
-                    Intent i = new Intent(MainActivity.this, LeggTilKontakt.class);
-                    startActivity(i);
-                }
-
-            }
-        });*/
 
     }
 
@@ -34,6 +24,13 @@ public class MainActivity extends AppCompatActivity {
     public void kontakt(View v){
         if (v.getId() == R.id.button2) {
             Intent i = new Intent(MainActivity.this, LeggTilKontakt.class);
+            startActivity(i);
+        }
+    }
+
+    public void avtale(View v){
+        if (v.getId() == R.id.button) {
+            Intent i = new Intent(MainActivity.this, LeggTilAvtaler.class);
             startActivity(i);
         }
     }
