@@ -13,6 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Database"
         tools:targetApi="31">
+        <service android:name=".MinSendService"/>
+        <service android:name=".MinPeriodisk"></service>
         <activity android:name=".LeggTilKontakt"
             android:exported="false"></activity>
         <activity android:name=".LeggTilAvtaler"
